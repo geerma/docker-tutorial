@@ -25,5 +25,6 @@ A Docker Container is a virtualized run-time environment that allows users to st
 
 - An example of the command used to run an application is: ```docker run -dp 3000:3000 getting-started```
 
+## Volume (Persistent DB)
 
-
+Typically, all changes to the database are lost when the container is stopped. To keep the data between runs, Docker volumes and bind mounts can be used.
